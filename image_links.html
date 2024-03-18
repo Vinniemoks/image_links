@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Webpage</title>
+  <style>
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Mokua's Gallery</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#menu">Menu</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>Welcome to the Mokua's Gallery. Here's an image related to technology:</p>
+    <a href="https://www.shutterstock.com/search/technology" target="_blank"><img src="technology.jpg" alt="Technology"></a>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="grid">
+      <a href="https://pixabay.com/images/search/natural/" target="_blank"><img src="nature1.jpg" alt="Nature 1"></a>
+      <a href="https://www.shutterstock.com/image-photo/tree-attached-light-socket-63853000" target="_blank"><img src="nature_img.jpg" alt="Nature 2"></a>
+    </div>
+  </section>
+
+  <section id="menu">
+    <h2>Menu</h2>
+    <ul>
+      <li><a href="https://static01.nyt.com/images/2023/08/31/multimedia/RS-Lasagna-hkjl/RS-Lasagna-hkjl-superJumbo.jpg" target="_blank><img src="Lasagna.jpg" alt="Lasagna"> Lasagna</a></li>
+      <li><a href="https://www.foodandwine.com/thmb/Wd4lBRZz3X_8qBr69UOu2m7I2iw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg" target="_blank><img src="Pizza.jpg" alt="Pizza"> Pizza</a></li>
+      <li><a href="https://www.allrecipes.com/thmb/RTo6ddljby-5lAszPdMRwQ-aVh0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/19863best-burger-everFranceC4x3-c9c7d5cae40b4a58a110a33e04b531d1.jpg" target="_blank><img src="Burger.jpg" alt="Burger"> Burger</a></li>
+    </ul>
+  </section>
+</body>
+</html>
